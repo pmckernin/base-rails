@@ -14,7 +14,7 @@ gem 'sprockets', '< 4'
 gem 'sassc-rails'
 gem 'webpacker', '~> 4.0'
 gem 'faker'
-gem 'indefinite_article'
+
 
 group :development do
   gem 'listen', '~> 3.2'
