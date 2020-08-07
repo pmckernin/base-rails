@@ -14,6 +14,7 @@ gem 'sprockets', '< 4'
 gem 'sassc-rails'
 gem 'webpacker', '~> 4.0'
 gem 'faker'
+gem 'indefinite_article'
 
 group :development do
   gem 'listen', '~> 3.2'
@@ -37,7 +38,7 @@ group :development do
   gem 'annotate'
   gem 'better_errors', '2.6'
   gem 'binding_of_caller'
-  gem 'draft_generators', github: 'firstdraft/draft_generators', branch: 'winter-2020'
+  gem 'draft_generators', github: 'firstdraft/draft_generators', branch: 'pm-resource-variable-off-winter'
   gem 'rails_db', '2.3.1'
 end
 

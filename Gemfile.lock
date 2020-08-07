@@ -1,7 +1,7 @@
 GIT
   remote: https://github.com/firstdraft/draft_generators.git
-  revision: 2714b2507753af7a81310f012fb6af43f7fe519c
-  branch: winter-2020
+  revision: ff4afadc2e729dc0d6ffd4ebcd4ee72008b49877
+  branch: pm-resource-variable-off-winter
   specs:
     draft_generators (0.0.3)
       devise
@@ -158,6 +158,8 @@ GEM
       ffi-compiler (>= 1.0, < 2.0)
     i18n (1.8.5)
       concurrent-ruby (~> 1.0)
+    indefinite_article (0.2.4)
+      activesupport
     jbuilder (2.10.0)
       activesupport (>= 5.0.0)
     kaminari (1.2.1)
@@ -368,6 +370,7 @@ DEPENDENCIES
   faker
   grade_runner!
   http
+  indefinite_article
   jbuilder (~> 2.7)
   listen (~> 3.2)
   nokogiri (>= 1.10.8)
