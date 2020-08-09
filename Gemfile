@@ -38,7 +38,7 @@ group :development do
   gem 'annotate'
   gem 'better_errors', '2.6'
   gem 'binding_of_caller'
-  gem 'draft_generators', github: 'firstdraft/draft_generators', branch: 'pm-resource-variable-off-winter'
+  gem 'draft_generators', github: 'firstdraft/draft_generators', branch: 'pm-remove-bootstrap-from-winter'
   gem 'rails_db', '2.3.1'
 end
 
